@@ -1,10 +1,20 @@
 ## 🚗 Dashboard Interativo – Anúncios de Veículos Usados  
-**Sprint 5 | Data Analytics & Web App** 
+**Sprint 5 | Data Analytics & Web App**
 
 ### 🔎 Visão Geral  
 Este projeto consiste no desenvolvimento de um **dashboard interativo em Streamlit** para análise exploratória de **anúncios de veículos usados** nos Estados Unidos.
 
 O foco principal do projeto é a **criação, implantação e disponibilização pública de um aplicativo web**, aplicando boas práticas de desenvolvimento de software e visualização de dados, conforme proposto no Sprint 5 da formação em Análise de Dados.
+
+---
+
+### 📸 Visualização do Aplicativo  
+
+**Visão geral do dashboard**
+![Visão geral do dashboard](images/app_dashboard.png)
+
+**Gráfico de dispersão – Preço vs Odômetro**
+![Gráfico de dispersão: preço vs odômetro](images/scatter_preco_odometro.png)
 
 ---
 
@@ -50,8 +60,8 @@ O aplicativo transforma dados brutos em **visualizações acessíveis**, apoiand
 3. Tratamento básico dos dados para visualização  
 4. Desenvolvimento do aplicativo web com Streamlit  
 5. Criação de gráficos interativos:
-   - Histograma da quilometragem dos veículos  
-   - Gráfico de dispersão entre quilometragem e preço  
+   - Histograma da distribuição de preços  
+   - Gráfico de dispersão entre preço e quilometragem  
 6. Implantação do aplicativo na nuvem utilizando o Render  
 
 ---
@@ -59,9 +69,9 @@ O aplicativo transforma dados brutos em **visualizações acessíveis**, apoiand
 ### 📊 Funcionalidades do Aplicativo  
 O dashboard permite ao usuário:
 
-- Visualizar a distribuição da quilometragem dos veículos  
+- Visualizar a distribuição dos preços dos veículos  
 - Analisar a relação entre preço e quilometragem  
-- Interagir com gráficos por meio de botões ou caixas de seleção  
+- Interagir com gráficos por meio de caixas de seleção  
 - Explorar os dados diretamente no navegador, sem necessidade de código  
 
 📌 O foco do aplicativo é **exploração visual e interatividade**, e não modelagem avançada.
@@ -76,10 +86,12 @@ O dashboard permite ao usuário:
 
 ---
 
-### ▶️ Como Executar o Projeto Localmente   
+### ▶️ Como Executar o Projeto Localmente  
+
 ```bash
 git clone https://github.com/denise-analytics/sprint5_streamlit
 cd sprint5_streamlit
 pip install -r requirements.txt
 streamlit run app.py
+
 
